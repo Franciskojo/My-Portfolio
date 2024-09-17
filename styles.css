@@ -25,3 +25,7 @@ nav {
     justify-content: space-evenly;
     width: 70%;
   }
+
+  .logo {
+    background-color: white;
+  }

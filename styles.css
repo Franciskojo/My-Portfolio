@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   padding: 0;
   text-decoration: none;
 }
@@ -26,6 +25,89 @@ nav {
     width: 70%;
   }
 
-  .logo {
+  h4 {
     background-color: white;
+    border-radius: 10px;
   }
+
+  .hero-info {
+    height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      /* margin-top: 200px; */
+
+  }
+
+  .hero {
+    background-image: url(./asset/im.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:calc(10rem, 7rem);
+  }
+
+   .bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px;
+   }
+
+   .im-bio {
+    margin-right: 600px;
+   }
+
+   .sss {
+    margin-top: -400px
+   }
+
+   .bio-cont {
+    margin-right:;
+   }
+   
+   {
+    /* margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    g */
+
+    }
+
+    .serv {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font: bolder;
+      font-size: 48px;
+      line-height: 57.6px;
+      font-style: oblique;
+    }
+
+    .service-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      row-gap: 50px;
+      column-gap: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+    }
+
+    .sp1 {
+      border: 2px solid red;
+      border-radius: 10px;
+    }
+
+   
+
+
+    

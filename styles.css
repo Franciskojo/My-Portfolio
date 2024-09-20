@@ -24,7 +24,6 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
   width: 70%;
-
 }
 
 .text-white {
@@ -144,18 +143,17 @@ h1 {
   background-color: azure;
 }
 
-.sp1:hover{
+.sp1:hover {
   color: white;
 }
 
 #ser {
   font-size: 25px;
   font-family: trirong;
-  
 }
 
 p {
-  font-size: Droid+Sans;
+  font-size: Droid + Sans;
   font-size: ;
 }
 
@@ -183,8 +181,95 @@ p {
   font-size: 3rem;
   padding: 10px 50px;
   background-color: aqua;
-  height: 80px;
-  width: 100%;
+  height: 80vh;
+  width: 100vh;
   color: white;
+  margin-left: 70px;
 }
 
+.con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.sec {
+  margin-top: 60px;
+}
+
+.conn {
+  font-size: 30px;
+}
+
+#name {
+  width: 1000px;
+  height: 30px;
+  border-radius: 1px;
+  column-gap: 60px;
+
+}
+
+.contact-it {
+  margin-left: 40px;
+}
+
+.form {
+  column-gap: 40px;
+  /* row-gap: 1000px; */
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.sec {
+  background-color: whitesmoke;
+  /* margin-left: 50px; */
+}
+
+.bu {
+  margin-top: 20px;
+  margin-left: 1000px;
+  width: 100px;
+  height: 30px;
+  border-radius: 2rem;
+  background-color: aqua;
+}
+
+.su {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bu:hover {
+  color: blueviolet;
+}
+
+.proj {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vh;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.project-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#pj {
+  font-size: 3rem;
+  font-family: trirong;
+}
+
+.im-1 {
+  border: solid;
+}

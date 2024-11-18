@@ -1,189 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./animi.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Tangerine:bold,italic|Inconsolata:italic|Droid+Sans ">
-    
-  </head>
-  <body>
-    <nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./animi.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Tangerine:bold,italic|Inconsolata:italic|Droid+Sans ">
+
+</head>
+
+<body>
+  <nav>
+    <div>
+      <h4>FKA</h4>
+    </div>
+    <div class="nav-items">
+      <a class="text-white" href="#Browse home">Home</a>
+      <a class="text-white" href="#About">My Bio</a>
+      <a class="text-white" href="#Portfolio">Services</a>
+      <a class="text-white" href="#Services">Projects</a>
+      <a class="text-white" href="https://docs.google.com/document/d/1pLGKKZJSP8qV5fLJktX7kUegmpsyq_rx/edit?usp=sharing&ouid=113852462175743576717&rtpof=true&sd=true">Cv</a>
+      <a class="text-white" href="#Contact">Contact</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-info">
+      <h2 id="sp">I'm Francis Kojo Amekeh <br /> A Junior Back-end Developer</h2>
+      <!-- <p id="pp">Passionate about building efficient backend solutions and RESTful APIs</p> -->
+    </div>
+  </section>
+  <section>
+    <div class="bio">
       <div>
-        <h4>FKA</h4>
+        <img class="im-bio" src="./asset/fra.jpg" alt="" width="100%" height="70%">
       </div>
-      <div class="nav-items">
-        <a class="text-white" href="#Browse home">Home</a>
-        <a class="text-white" href="#Droup">Droupdown</a>
-        <a class="text-white" href="#About">About</a>
-        <a class="text-white" href="#Portfolio">Project</a>
-        <a class="text-white" href="#Services">Services</a>
-        <a class="text-white" href="#Cv">Cv</a>
-        <a class="text-white" href="#Contact">Contact</a>
-        <a class="text-white" href="#Story">Story</a>
-      </div>
-    </nav>
-    <section class="hero">
-      <div class="hero-info">
-        <h1>Welcome to My Portfolio</h1>
-        <span id="sp">I'm Francis Kojo Amekeh <br />A Back-end Developer</span>
-      </div>
-    </section>
-    <section >
-      <div class="bio">
-        <div >
-          <img class="im-bio"src="./asset/back2.jpg" alt="" width="100%" height="70%" >
+      <div class="bio-cont">
+        <div>
+          <h2>My Bio</h2>
         </div>
-        <div class="bio-cont">
-          <div>
-            <h2>My Bio</h2>
-          </div>
-          <p>
-            As a seasoned back-end developer, I specialize in building the invisible
+        <p>
+          Francis is a junior backend developer with experience in building RESTful APIs and scalable backend systems using
+          Node.js, Express.js and MongoDB. He has contributed to several projects and is passionate about creating
+          efficient and reliable web applications.
+          <!-- As a seasoned back-end developer, I specialize in building the invisible
             infrastructure that powers modern applications. My expertise lies in
             designing, developing, and maintaining the server-side components of web
             and mobile applications. <br>With a strong foundation in Javascript, I excel at creating robust and
             scalable systems. I'm proficient in database management, ensuring
             efficient data storage and retrieval. My skills also extend to API
             development, enabling seamless communication between different parts of
-            an application.
-          </p>
-          <div>
-            <h3>Programming Language:</h3>
-          </div>
-          <li>JavaScript (Node.js)</li>
-          <div>
-            <h3>Databases</h3>
-          </div>
+            an application. -->
+        </p>
+
+        <div>
+          <h3>Skills:</h3>
+          <!-- <h3>Programming Language:</h3> -->
+          <li>Node.js</li>
+          <li>Express.js</li>
           <li>NoSQL Databases (MongoDB)</li>
-    <div>
-      <h3>Server-Side Technologies:</h3>
-    </div>
-    <li>Web Frameworks (Express.js (JavaScript))</li>
-      <li>API Development:</li>
-    <li>Cloud Platforms:
-      Azure (Microsoft)</li>
-      <div>
-        <button class="button pulsate-bck">Hire Me</button>
-      </div>
-      
+          <li>Git and Github</li>
+          <li>SQL</li>
+          <li>RESTful APIs</li>
         </div>
+        <div>
+          <!-- <h3>Server-Side Technologies:</h3>
+        </div>
+        <li>Web Frameworks (Express.js (JavaScript))</li>
+        <li>API Development:</li> -->
+          <li>
+            Azure (Microsoft)</li>
+          <div>
+            <!-- <button class="button pulsate-bck">Contact Me</button> -->
+          </div>
+
+        </div>
+
+      </div>
+
+  </section>
+  <section class="sss">
+    <div>
+      <h2 class="serv">Services</h2>
+    </div>
+    <div class="service-item">
+      <div class="sp1">
+        <span id="ser">Server-Side Development</span>
+        <p>Creating the behind-the-scenes logic and functionality of a web or mobile application. It involves building
+          the server-side components that handle data processing, storage, and communication.</p>
+      </div>
+      <div class="sp1">
+        <span id="ser">Security and Data Protection</span>
+        <p>Ensuring the integrity, confidentiality, and availability of sensitive information. They involve implementing
+          measures to protect the application and its data from unauthorized access, vulnerabilities, and cyberattacks.
+        </p>
+      </div>
+      <div class="sp1">
+        <span id="ser">Maintenance and Support</span>
+        <p>Identifying and resolving issues that arise in the application and continuously monitoring the application's
+          performance and making necessary adjustments. Providing assistance to users and other team members.</p>
+      </div>
+    </div>
+    <section class="project">
+      <div class="project-cont">
+        <span id="pj">Project</span>
+      </div>
+      <div class="project-card">
+        <h3>Library Management App</h3>
+        <p>A web-based library management system that includes APIs for managing books, users, and borrowing
+          transactions.</p>
+        <p><strong>Technologies:</strong> Node.js, Express, MongoDB</p>
+        <a href="https://github.com/Binary-05/Library-api" target="_blank" class="btn">View Project</a>
+
+        <h3>Advertisement Website</h3>
+        <p>A platform designed to showcase, promote, and manage ads for products or businesses. It serves as a digital space for businesses and individuals to market their offerings to a targeted audience. </p>
+        <p><strong>Technologies:</strong> Node.js, Express, MongoDB</p>
+        <a href="https://github.com/Binary-05/ad-api.git" target="_blank" class="btn">View Project</a>
+
+
         
       </div>
-      
-</section>
-<section class="sss">
-  <div>
-    <h2 class="serv">Services</h2>
-  </div>
-  <div class="service-item">
-    <div class="sp1">
-      <span id="ser">Server-Side Development</span>
-      <p>Creating the behind-the-scenes logic and functionality of a web or mobile application. It involves building the server-side components that handle data processing, storage, and communication.</p>
-    </div>
-    <div class="sp1">
-      <span id="ser">Security and Data Protection</span>
-      <p>Ensuring the integrity, confidentiality, and availability of sensitive information. They involve implementing measures to protect the application and its data from unauthorized access, vulnerabilities, and cyberattacks.</p>
-    </div>
-    <div class="sp1">
-      <span id="ser">Maintenance and Support</span>
-      <p>Identifying and resolving issues that arise in the application and continuously monitoring the application's performance and making necessary adjustments. Providing assistance to users and other team members.</p>
-    </div>
-  </div>
-  <section class="project">
-    <div class="project-cont">
-      <span id="pj">Project</span>
-    </div>
-    <div class="proj">
-      <div class="im-1">
-        <img src="./asset/data.jpg" alt="about project">
+    </section>
+    <section class="sec">
+      <div class="con">
+        <h2>Contact</h2>
       </div>
-      <div class="im-1">
-        <img src="./asset/data1.png" alt="about project">
-      </div>
-    </div>
-  </section>
-  <section class="sec">
-    <div class="con">
-      <h2>Contact</h2>
-    </div>
-    <div class="contact-it">
-      <div>
-        <span class="conn">Connect with me</span>
-        <p>If you want to know more about me or my work, or if you would just <br>
-          like to say hello, send me a message. I'd love to hear from you.</p>
-      </div>
-      <form class="form">
+      <div class="contact-it">
         <div>
-          <label for="name" cl>Name</label> <br>
-          <input type="email" id="name" placeholder="Enter your name" required>
+          <span class="conn">Connect with me</span>
+          <p>If you want to know more about me or my work, or if you would just <br>
+            like to say hello, send me a message. I'd love to hear from you.</p>
         </div>
-        <div>
-          <label for="email">Email</label> <br>
-          <input type="email" id="name" placeholder="Enter your email" required>
-        </div>
-        <div>
-          <label for="message">Message</label> <br>
-          <textarea id="name" placeholder="Enter your message" required></textarea>
-        </div>
-        <div>
+        <form class="form">
+          <div>
+            <label for="name" cl>Name</label> <br>
+            <input type="email" id="name" placeholder="Enter your name" required>
+          </div>
+          <div>
+            <label for="email">Email</label> <br>
+            <input type="email" id="name" placeholder="Enter your email" required>
+          </div>
+          <div>
+            <label for="message">Message</label> <br>
+            <textarea id="name" placeholder="Enter your message" required></textarea>
+          </div>
+          <div>
 
-        </div class="su">
-        <button class="bu">Submit</button>
-    </div>
-    </form>
+          </div class="su">
+          <button class="bu">Submit</button>
+      </div>
+      </form>
+    </section>
   </section>
-</section>
-<footer class="footer">
-  <div>
+  <footer class="footer">
     <div>
-      <h3>About Me</h3>
-    <p>I'm a passionate back-end developer with 2 years of <br>experience in building scalable and reliable systems.</p>
-    </div>
-      <h3>Connect</h3>
-        <ul>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-pinterest"></i>
-          <i class="fa-brands fa-snapchat"></i>
+      <div>
+        <h3>About Me</h3>
+        <p>Hi, I'm a junior backend developer with experience in building RESTful APIs<br>and backend solutions using
+          technologies like Node.js, Express, MongoDB,<br> and more. I am passionate about solving complex problems and
+          continuously <br>learning to improve my skills.
+        </p>
+      </div>
+      <!-- <h3>Connect</h3>
+      <ul>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-snapchat"></i> -->
       </ul>
-  </div>
-  <div>
-    <h3>Navagation</h3>
-    <ul>
-      <li><a class="text"href="#">JavaScript</a></li>
-      <li><a class="text"href="#">Django</a></li>
-      <li><a class="text"href="#">Sql</a></li>
-      <li><a class="text"href="#">Java</a></li>
-      <li><a class="text"href="#">MongoDB</a></li>
-    </ul>
-  </div>
-  <div>
-    <h3>Services</h3>
-    <ul>
-      <li><a class="text"href="#">Web Development</a></li>
-      <li><a class="text"href="#">Back-end</a></li>
-      <li><a class="text"href="#">Cloud</a></li>
-      <li><a class="text"href="#">eCommerce</a></li>
-      <li><a class="text"href="#">IT Support</a></li>
-    </ul>
-  </div>
-  <div>
-    <h3>Contact</h3>
-    <address>43 Raymouth Rd. Baltemoer, London 3910</address>
-    <ul>
-      <li><a class="text"href="#">+233544832798</a></li>
-      <li><a class="text"href="#">+233508152875</a></li>
-      <li><a class="text"href="#">franciskojoamekeh@gmail.com</a></li>
-      
-    </ul>
-  </div>
-  
-</footer>
-  </body>
+    </div>
+    <!-- <div>
+      <h3>Navagation</h3>
+      <ul>
+        <li><a class="text" href="#">JavaScript</a></li>
+        <li><a class="text" href="#">Django</a></li>
+        <li><a class="text" href="#">Sql</a></li>
+        <li><a class="text" href="#">Java</a></li>
+        <li><a class="text" href="#">MongoDB</a></li>
+      </ul>
+    </div> -->
+    <div>
+      <!-- <h3>Services</h3>
+      <ul>
+        <li><a class="text" href="#">Web Development</a></li>
+        <li><a class="text" href="#">Back-end</a></li>
+        <li><a class="text" href="#">Cloud</a></li>
+        <li><a class="text" href="#">eCommerce</a></li>
+        <li><a class="text" href="#">IT Support</a></li>
+      </ul>
+    </div> -->
+    <div>
+      <h3>Contact</h3>
+      <address>43 Raymouth Rd. Baltemoer, London 391</address>
+      <ul>
+        <li><a class="text" href="#">+233544832798</a></li>
+        <li><a class="text" href="#">+233508152875</a></li>
+        <li><a class="text" href="#">franciskojoamekeh@gmail.com</a></li>
+
+      </ul>
+    </div>
+
+  </footer>
+</body>
+
 </html>

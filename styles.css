@@ -77,6 +77,12 @@ h1 {
   /* margin-top: 200px; */
 }
 
+#pp {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
 .hero {
   background-image: url(./asset/im.jpg);
   height: 100vh;
@@ -92,6 +98,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   margin: 150px;
   grid-gap: 100px;
+  font-family: trirong;
 }
 
 .im-bio {
@@ -102,18 +109,18 @@ h1 {
   margin-top: -250px;
 }
 
-.bio-cont {
-  margin-right: ;
-}
+/* .bio-cont { */
+  /* margin-right:  */
+/* } */
 
- {
+ /* { */
   /* margin-top: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     g */
-}
+/* } */
 
 .serv {
   display: flex;
@@ -141,6 +148,7 @@ h1 {
   border: 2px solid red;
   border-radius: 10px;
   background-color: azure;
+  font-family: trirong;
 }
 
 .sp1:hover {
@@ -154,7 +162,7 @@ h1 {
 
 p {
   font-size: Droid + Sans;
-  font-size: ;
+  /* font-size: ; */
 }
 
 .footer {
@@ -167,7 +175,7 @@ p {
   width: 100%;
   height: 100%;
   font-family: trirong;
-  font-size: ;
+  /* font-size: ; */
 }
 
 .text {
@@ -271,4 +279,79 @@ p {
 
 .im-1 {
   border: solid;
+}
+
+.project-card {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: trirong;
+}
+
+.projects-section,
+.contact-section {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-card {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+  }
+
+  .menu-toggle {
+      display: block;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .hero h2 {
+      font-size: 2em;
+  }
+
+  .hero p {
+      font-size: 1em;
+  }
+}
+
+
+
+
+/* Make the footer items responsive */
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Make the nav items responsive */
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
